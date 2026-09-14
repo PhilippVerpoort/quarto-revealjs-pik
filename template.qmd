@@ -1,0 +1,36 @@
+---
+title: Presentation Title
+subtitle: Presentation Subtitle
+author: Dr. Philipp C. Verpoort
+department: Energy Transition Lab<br>Research Department 3 — Transformation Pathways
+lang: de
+format:
+  pik-revealjs:
+    width: 1920
+    height: 1080
+    margin: 0
+    slide-number: true
+    show-slide-number: all
+    progress: true
+    footer: PC Verpoort &nbsp;|&nbsp; Presentation Title &nbsp;|&nbsp; Date
+    transition: none
+    background-transition: none
+    highlight-style: github
+    code-line-numbers: true
+    embed-resources: false
+    controls: false
+    controls-layout: edges
+    controls-back-arrows: faded
+    title-slide-attributes:
+      data-footer: 'false'
+    pdf-separate-fragments: true
+execute:
+  enabled: false
+  echo: false
+  warning: false
+  freeze: false
+---
+
+## First slide
+
+Content here.

@@ -1,0 +1,18 @@
+<section id="$idprefix$title-slide"$for(title-slide-attributes/pairs)$ $it.key$="$it.value$"$endfor$>
+  <div class="logo-pik"></div>
+  <div class="logo-leibniz"></div>
+  <h1 class="title">$title$</h1>
+$if(subtitle)$
+  <p class="subtitle">$subtitle$</p>
+$endif$
+$for(author)$
+  <p class="author">$author$</p>
+$endfor$
+  <p class="institute">
+    $if(department)$ $department$ $endif$<br>
+    Potsdam Institute for Climate Impact Research (PIK)
+  </p>
+$if(date)$
+  <p class="date">$date$</p>
+$endif$
+</section>
