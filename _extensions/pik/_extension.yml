@@ -7,3 +7,5 @@ contributes:
     revealjs:
       theme: [default, pik-theme.scss]
       template-partials: [title-slide.html]
+      filters:
+        - thank-you-slide.lua

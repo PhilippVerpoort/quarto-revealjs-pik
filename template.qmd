@@ -1,9 +1,9 @@
 ---
 title: Presentation Title
 subtitle: Presentation Subtitle
-author: Dr. Philipp C. Verpoort
+author: Dr John Doe
 department: Energy Transition Lab<br>Research Department 3 — Transformation Pathways
-lang: de
+lang: en
 format:
   pik-revealjs:
     width: 1920
@@ -12,7 +12,7 @@ format:
     slide-number: true
     show-slide-number: all
     progress: true
-    footer: PC Verpoort &nbsp;|&nbsp; Presentation Title &nbsp;|&nbsp; Date
+    footer: J Doe &nbsp;|&nbsp; Presentation Title &nbsp;|&nbsp; Date
     transition: none
     background-transition: none
     highlight-style: github
@@ -29,8 +29,25 @@ execute:
   echo: false
   warning: false
   freeze: false
+thank-you-slide:
+  authors:
+    - id: john
+      name: John Doe
+      description: Energy Transition Lab<br>Potsdam Institute for Climate Impact Research (PIK)
+      email: john.doe@pik-potsdam.de
+    - id: jane
+      name: Jane Doe
+      description: Research Department 3 — Transformation Pathways<br>Potsdam Institute for Climate Impact Research (PIK)
+      email: jane.doe@pik-potsdam.de
 ---
 
 ## First slide
 
 Content here.
+
+## Thanks {#thank-you-slide}
+
+::: {.thank-you-slide}
+Some final words.
+:::
+
